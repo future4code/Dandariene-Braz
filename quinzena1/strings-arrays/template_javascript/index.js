@@ -7,10 +7,10 @@
 
 //     O e-mail `emailDoUsuario` foi cadastrado com sucesso. Seja bem-vinda(o), `nomeDoUsuario`!
 
-/*let nomeUsuario = prompt('Qual seu nome?')
+let nomeUsuario = prompt('Qual seu nome?')
 let emailUsuario = prompt('Qual o seu email?')
 
-console.log(`O email ${emailUsuario} foi cadastrado com sucesso. Seja bem-vindo(a), ${nomeUsuario}`)*/
+console.log(`O email ${emailUsuario} foi cadastrado com sucesso. Seja bem-vindo(a), ${nomeUsuario}`)
 
 
 //==============================================================================================================//
@@ -23,14 +23,14 @@ console.log(`O email ${emailUsuario} foi cadastrado com sucesso. Seja bem-vindo(
 
 //     c) Aqui vai um desafio: pergunte ao usuário uma comida preferida. Troque a segunda comida da sua lista pela inserida pelo usuário. Imprima na tela a nova lista
 
-/*let comidasFavoritas = ["lasanha","Frango","Tapioca","Macarronada","churrasco"]
+let comidasFavoritas = ["lasanha","Frango","Tapioca","Macarronada","churrasco"]
 console.log(comidasFavoritas)
 console.log(`Essas são minhas comidas preferidas: \n
 ${comidasFavoritas[0]}\n${comidasFavoritas[1]}\n${comidasFavoritas[2]}\n${comidasFavoritas[3]}\n${comidasFavoritas[4]}`)
 
 let comidaPreferidaUsuario = prompt('Qual sua comida preferida?')
 console.log(`Essas são minhas comidas preferidas: \n
-${comidasFavoritas[0]}\n${comidaPreferidaUsuario}\n${comidasFavoritas[2]}\n${comidasFavoritas[3]}\n${comidasFavoritas[4]}`)*/
+${comidasFavoritas[0]}\n${comidaPreferidaUsuario}\n${comidasFavoritas[2]}\n${comidasFavoritas[3]}\n${comidasFavoritas[4]}`)
 
 
 //================================================================================================================//
