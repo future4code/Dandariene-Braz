@@ -1,0 +1,44 @@
+            <================ Exercícios de interpretação de código ==================>
+
+
+1.  Indique todas as mensagens impressas no console, **SEM EXECUTAR o programa**.
+
+    let array
+    console.log('a. ', array)
+
+    Resposta: a.  undefined
+
+    array = null
+    console.log('b. ', array)
+
+    Resposta: b.  null
+
+    array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    console.log('c. ', array.length)
+
+    Resposta: c. 11
+
+    let i = 0
+    console.log('d. ', array[i])
+
+    Resposta: d. vai dizer qua o array não é definido
+
+    array[i+1] = 19
+    console.log('e. ', array)
+
+    Resposta: Vai dizer também que array não é definido
+
+    const valor = array[i+6]
+    console.log**('f. ', valor)**
+
+    Resposta: Já vai dá erro anytes mesmo de executar por conta dos asteriscos
+
+2. Leia o código abaixo com atenção 
+
+    const frase = prompt("Digite uma frase")
+
+    console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+
+    Qual será o valor impresso no console se a entrada do usuário for: `"Subi num ônibus em Marrocos"`?
+
+    Resposta: SUBI NUM ÔNIBUS EM MIRROCOS, 27
