@@ -165,16 +165,16 @@ function anonimizaPessoa(pessoa) {
 
 //EXERCÍCIO 16A
 function maioresDe18(arrayDePessoas) {
-  const  maior18 = arrayDePessoas.filter((item) => {
+  const maior18 = arrayDePessoas.filter((item) => {
     return item.idade >= 18
   })
   return maior18
-  
+
 }
 
 // EXERCÍCIO 16B
 function menoresDe18(arrayDePessoas) {
-  const  menor18 = arrayDePessoas.filter((item) => {
+  const menor18 = arrayDePessoas.filter((item) => {
     return item.idade < 18
   })
   return menor18
@@ -183,7 +183,7 @@ function menoresDe18(arrayDePessoas) {
 
 // EXERCÍCIO 17A
 function multiplicaArrayPor2(array) {
-  const  multPor2 = array.map((item) => {
+  const multPor2 = array.map((item) => {
     return item * 2
   })
   return multPor2
@@ -194,37 +194,50 @@ function multiplicaArrayPor2S(array) {
   const multPor2Str = array.map((item) => {
     item = item * 2
     return item.toString()
-  }) 
+  })
   return multPor2Str
 }
 
 // EXERCÍCIO 17C
 function verificaParidade(array) {
   const imparPar = array.map((item) => {
-    if (item % 2 === 0){
-      item = `${item.toString()} é par`
-    }else{
-      item = `${item.toString()} é impar`
+    if (item % 2 === 0) {
+      return `${item} é par`
+    } else {
+      return `${item} é ímpar`
     }
-   return item
   })
-  return(imparPar)
-
+  return imparPar
 }
 
 // EXERCÍCIO 18A
 function retornaPessoasAutorizadas(pessoas) {
-
+  let autorizadas = []
+  for (let pessoa of pessoas) {
+    if (pessoa.altura > 1.5 && pessoa.idade > 14 && pessoa.idade < 60) {
+      autorizadas.push(pessoa)
+    }
+  }
+  return autorizadas
 }
 
 // EXERCÍCIO 18B
 function retornaPessoasNaoAutorizadas(pessoas) {
-
+  let autorizadas = []
+  for (let pessoa of pessoas) {
+    if (pessoa.altura < 1.5 || pessoa.idade <= 14 || pessoa.idade >= 60) {
+      autorizadas.push(pessoa)
+    }
+  }
+  return autorizadas
 }
 
 // EXERCÍCIO 19A
 function ordenaPorNome(consultasNome) {
-
+  const ordenaNomes = consultasNome.sort((a, b) => {
+    return a.nome.localeCompare(b.nome)
+  })
+  return ordenaNomes
 }
 
 // EXERCÍCIO 19B
