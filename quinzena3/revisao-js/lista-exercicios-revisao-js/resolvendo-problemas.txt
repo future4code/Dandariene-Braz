@@ -1,0 +1,26 @@
+        7 passos fundamentais para a resolução de problemas e como eles podem nos ajudar 
+        a solucionar nossos desafios de programação
+
+1- Ler o enunciado com atenção
+Garantir que entendemos o enunciado para termos certeza do que estamos fazendo
+
+2- Filtrar as informações relevantes
+Tentar identificar as palavras chave para que saibamos se elas serão relevantes para 
+desenvolver o nosso código
+
+3- Pensar as entradas e saídas
+Tentar entender quais serão as entradas e saídas do nosso programa
+
+4- Fazer um esquema visual
+Esboçar algo visual que nos faça entender melhor o que queremos desenvolver
+
+5- Criar código feio
+Tentar chegar na código de maneira que resolva o problema, não se preocupando inicialmente 
+com a beleza do código
+
+6- Testar força bruta
+Fazer os testes para analisar se atende a expectativa da resolução do problema, passando nos testes
+é o momento de partir para o ultimo passo
+
+7- Refatorar
+Hora de analisar a legibilidade e performance do código, analisar o que pode ser melhorado e melhorar
