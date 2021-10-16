@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-top: 100px;
+    text-align: center;
+    height: 40vw;
+    background: rgb(246,106,106);
+    background: linear-gradient(180deg, rgba(246,106,106,1) 0%,
+     rgba(249,215,215,1) 50%, rgba(246,106,106,1) 100%);
+    width: 100%;
+    position: relative;
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(211, 63, 88);
+    font-style: oblique;
+}
+
+
+.links{
+    background-size: cover;
+    display: grid;
+    padding: 8px 8px;
+    margin: 4px 4px;
+    font-size: 20px;
+    text-shadow: rgb(214, 88, 187) 2px 0px 2px;  
+    text-decoration: none;
+}
+
+.sobre{
+    font-size: 25px;
+    color: rgb(182, 64, 133);
+
+}
+
+.subtitulo{
+    font-size: 30px;
+    color: rgb(109, 107, 107);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.tabela{
+    margin-left: 200px;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.lista-funcionarios{
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.redes-sociais{
+    width: 50px;
+}
+
+footer{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(215,215,215);
+    background: linear-gradient(180deg, rgba(215,215,215,1) 16%, rgba(131,131,131,1) 92%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
